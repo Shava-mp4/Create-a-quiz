@@ -110,8 +110,7 @@ function markQuiz() {
     document.getElementById("result-phrase").innerHTML = ":(";
   }
 
-  let percent = (numCorrect * 100) / 6;
-  Math.floor(percent);
+ let percent = (numCorrect * 100) / 6;
+  percent = percent.toFixed(2);
 
-  document.getElementById("result").innerHTML = `${numCorrect}/6 (${percent})`;
-}
+  document.getElementById("result").innerHTML = `${numCorrect}/6 (${percent}%)`;
