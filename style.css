@@ -1,0 +1,19 @@
+html {
+  background: url(img/1350156.jpeg) no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(64, 72, 226, 0.8);
+  color: white;
+  border-radius: 15px;
+  width: 600px;
+  padding: 25px 90px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+img {
+  height: 250px;
+  border: solid rgb(43, 43, 43);
+}

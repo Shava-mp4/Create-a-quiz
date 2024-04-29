@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz!!!!!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Persona 3 Reload Quiz!!!!!!!!!!!</h1>
+    <hr />
+    <h2>Question 1</h2>
+    <p>What is the protagonists most common name?</p>
+    <p class="image">
+      <img src="img/Persona-3-reload-preview-header.webp" alt="P3R Protag" />
+    </p>
+    <p>Answer: <input id="q1Res" type="text" /> <span id="q1Ans"></span></p>
+    <hr />
+    <h2>Question 2</h2>
+    <p>What character represents the tarot card X-Fortune?</p>
+    <p class="image">
+      <img src="img/Fortune-0.webp" alt="fortune" />
+    </p>
+    <p>Answer: <input id="q2Res" type="text" /> <span id="q2Ans"></span></p>
+    <hr />
+    <h2>Question 3</h2>
+    <p>How do they summon their personas?</p>
+    <p>
+      Answer:
+      <select name="personaAwaken" id="awaken">
+        <option value="mask">Tear Off A Mask</option>
+        <option value="card">Breaking a Blue Card</option>
+        <option value="gun">Shooting Themselves</option>
+        <option value="will">Using Will Alone</option>
+      </select>
+      <span id="q3Ans"></span>
+    </p>
+    <hr />
+    <h2>Question 4</h2>
+    <p>What was the original name for the Persona Series?</p>
+    <p>Answer: <input id="q4Res" type="text" /> <span id="q4Ans"></span></p>
+    <hr />
+    <h2>Question 5</h2>
+    <p>How many major arcana are there?</p>
+    <p>Answer: <input id="q5Res" type="text" /> <span id="q5Ans"></span></p>
+    <hr />
+    <h2>Question 6</h2>
+    <p>Which songs does persona 3 reload start and end with?</p>
+    <p class="image">
+      <img src="img/Persona-3-Reload_-Is-There-DLC_.jpg" alt="song-choice" />
+    </p>
+    <p>
+      Answer:
+      <select name="personaSong" id="song">
+        <option value="CYN/CS">Color Your Night/Changing Seasons</option>
+        <option value="IGDN/CYN">It's Going Down Now/Color Your Night</option>
+        <option value="ID/KNK">Iwatodai dorm/Memories of You</option>
+        <option value="FMFL/KNK">Full Moon Full Life/Memories of You</option>
+        <option value="FMFL/WTMROS">
+          Full Moon Full Life/When The Moon's Reaching Out Stars
+        </option>
+        <option value="IGDN/MD">It's Going Down Now/Mass Destruction</option>
+      </select>
+      <span id="q6Ans"></span>
+    </p>
+    <hr />
+    <button id="quizMarker">Mark Quiz</button>
+    <p>Your Score: <span id="result"></span></p>
+    <br />
+    <span id="result-phrase"></span>
+  </body>
+</html>
