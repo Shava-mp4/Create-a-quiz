@@ -114,3 +114,4 @@ function markQuiz() {
   percent = percent.toFixed(2);
 
   document.getElementById("result").innerHTML = `${numCorrect}/6 (${percent}%)`;
+}
