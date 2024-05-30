@@ -96,6 +96,7 @@ function markQuiz() {
     q6Answer.innerHTML = "Wrong :(";
     q6Response.style.border = "2px solid rgb(255, 128, 128)";
     q6Answer.style.color = "rgb(255, 128, 128)";
+  }
 
   if (numCorrect === 6) {
     document.getElementById("result-phrase").innerHTML =
